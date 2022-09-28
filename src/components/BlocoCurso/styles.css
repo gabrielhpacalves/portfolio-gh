@@ -1,5 +1,34 @@
-.box-curso{
-    width: 100px;
-    height: 200px;
-    background-color: aqua;
+.bloco{
+    width: 300px;
+    border: 2px solid #39156f ;
+    border-radius: 5px;
+    float: left;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    min-height: 89px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 10px 10px 0px;
+    font-weight: 600;
+    animation: slideTechs 1.2s;
 }
+
+.title{
+    text-align: center;
+    color: #39156f ;
+}
+
+h2 {
+    margin-bottom: 2%;
+    font-size: 2.2em;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    color: #39156f;
+}
+
+
+

@@ -1,4 +1,5 @@
 import BlocoCurso from '../../components/BlocoCurso';
+import './styles.css';
 
 const listaCursos = [
     {
@@ -42,6 +43,17 @@ const listaCursos = [
 const Page = () => {
     return (
         <main className="main-container">
+
+            <div className='cursos'>
+
+                <h2>Cursos</h2>
+
+                {listaCursos.map(cursos => {
+                    return (
+                        <BlocoCurso id={cursos.id} curso={cursos.desc} escola={cursos.escola} ano={cursos.ano} />
+                    )
+                })}
+            </div>
 
 
         </main>
