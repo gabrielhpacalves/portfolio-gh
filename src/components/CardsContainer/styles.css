@@ -1,0 +1,42 @@
+.techs {
+  animation: slideTechs 1.2s;
+}
+
+@keyframes slideTechs {
+  from {
+    transform: translateY(60px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.cards-container ul{
+  display:flex;
+}
+
+.clique{
+  color: #000;
+  font-size: 12px;
+}
+
+.cards-container ul li{
+  display: inline-block;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .techs {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .cards-container {
+    margin-top: 32px;
+  }
+}
