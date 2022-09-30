@@ -12,7 +12,3 @@ footer span {
   font-weight: 200;
   transition: 0.16s ease-in;
 }
-
-footer span:hover {
-  color: #00E0FF;
-}
