@@ -1,11 +1,12 @@
 import SocialLink from './SocialLink';
 import { linksList } from './linksList';
 import './styles.css';
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
-      <h1>Dev.GH</h1>
+      <Link to={`/`}><h1>Dev.GH</h1></Link> 
 
       <nav>
         {

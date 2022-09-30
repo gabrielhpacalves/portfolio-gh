@@ -31,4 +31,9 @@ h2 {
 }
 
 
-
+/* RESPONSIVE ============ */
+@media (max-width: 1200px) {
+    .bloco{
+        width: 100%;
+    }
+}
